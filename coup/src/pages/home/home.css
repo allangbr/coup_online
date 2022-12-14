@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  font-size: 3.5vh;
+  filter: drop-shadow(5px 5px 2px #a7a4a4);
+  color: white;
+}
+
+@keyframes background {
+  100% {background-size: 4000px 1000px;}
+}
+
+body {
+  background-image: url("../../../public/assets/images/Cloudy.svg");
+  background-size: 2000px 1000px;
+  background-position: -500px 0;
+  font-family: "Euclid Circular A";
+  animation: background 10s infinite alternate linear;
+}
+
+.create-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.create-inputs-area {
+  display: block;
+  color: white;
+}
+
+.title {
+  margin-left: 40px;
+  color: white;
+}
+
+.button {
+  margin-left: 70px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.enter-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter-inputs-area {
+  display: block;
+  color: white;
+  margin-left: 10px;
+}
+
+.title-enter {
+  margin-left: 5px;
+  color: white;
+}
+
+.button-enter {
+  margin-left: 70px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 55px;
+}
