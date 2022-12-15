@@ -1,7 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./lobby.css"
 
 export default function Lobby() {
+  const [timeTotal, setTimeTotal] = useState ( 10 );
+
+  useEffect(() => {
+    if(timeTotal === 0){
+      window.location.href = '/game'
+    } else {
+      setTimeout(() => {
+        setTimeTotal(timeTotal - 1)
+      }, 1000)
+    }
+    
+  }, [timeTotal])
+
+
   return <div>
     <div class="header-lobby">
       <h1>Coup Online</h1>
