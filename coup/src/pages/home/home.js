@@ -1,5 +1,5 @@
 import React from 'react';
-import "./home.css"
+import "../home/home.css"
 
 export default function Home() {
   return <div>
@@ -13,7 +13,7 @@ export default function Home() {
         Nickname <input type="text" name="nick" class="inputs"/> 
         Nº de Players <input type="text" class="inputs"/>
         {/* <input type="button" class="button"></input> */}
-        <a href="/game" class="button">CRIAR</a>
+        <a href="/lobby" class="button">CRIAR</a>
       </div>
     </div>
     <div class="enter-content"> 
@@ -22,7 +22,7 @@ export default function Home() {
           Nickname <input type="text" name="nick" class="inputs"/> 
           ID da sala <input type="text" class="inputs"/>
           {/* <input type="button" class="button" value="ENTRAR" href="/game"></input> */}
-          <a href="/game" class="button-enter">ENTRAR</a>
+          <a href="/lobby" class="button-enter">ENTRAR</a>
       </div>
     </div>
     </div>;
