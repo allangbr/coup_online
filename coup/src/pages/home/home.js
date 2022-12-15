@@ -12,7 +12,7 @@ export default function Home() {
       <h2 class="title"> Criar Sala</h2>
         Nickname <input type="text" name="nick" class="inputs"/> 
         Nº de Players <input type="text" class="inputs"/>
-        {/* <input type="button" class="button"></input> */}
+        Link para o discord (Opcional) <input type="text" name="nick" class="inputs"/> 
         <a href="/lobby" class="button">CRIAR</a>
       </div>
     </div>
@@ -21,7 +21,6 @@ export default function Home() {
         <h2 class="title-enter"> Entrar em Sala</h2>
           Nickname <input type="text" name="nick" class="inputs"/> 
           ID da sala <input type="text" class="inputs"/>
-          {/* <input type="button" class="button" value="ENTRAR" href="/game"></input> */}
           <a href="/lobby" class="button-enter">ENTRAR</a>
       </div>
     </div>

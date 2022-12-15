@@ -26,6 +26,7 @@ export default function Lobby() {
       <div class="room-id">
         ID da sala: <input type="text" name="nick" class="inputs-lobby" placeholder='Gr1U6ubjV'/>
       </div>
+      Link para o discord: <input type="text" name="nick" class="inputs-lobby-discord" placeholder='https://discord.gg/mcHuEqjw'/>
 
       <div class="text-explanation">
       O jogo irá começar quando todos os jogadores entrarem na sala.
