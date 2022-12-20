@@ -9,6 +9,9 @@ import condensa from '../../images/condensa.png'
 export default function Game() {
   return <div>
     <div class="container">
+      <div class="exit">
+        <a href="/" class="card_button">SAIR</a>
+      </div>
       <div class="card">
         <div>
           <h2>Allan</h2>
