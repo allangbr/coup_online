@@ -96,6 +96,9 @@ export default function Game() {
           <div class="card_play_1">
             <p>COUP</p>
           </div>
+          <div class="card_play_1">
+            <p>PRENDER</p>
+          </div>
         </div>
         <div class="file_2">
           <div class="card_play_2">
