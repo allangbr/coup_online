@@ -21,9 +21,10 @@ body {
 }
 
 .create-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .inputs {
@@ -35,15 +36,14 @@ body {
 .create-inputs-area {
   display: block;
   color: white;
+  text-align: center;
 }
 
 .title {
-  margin-left: 40px;
   color: white;
 }
 
 .button {
-  margin-left: 70px;
   text-decoration: none;
   color: white;
   background-color: black;
@@ -52,28 +52,27 @@ body {
 }
 
 .enter-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: -0.6%;
 }
 
 .enter-inputs-area {
   display: block;
   color: white;
-  margin-left: -50px;
+  text-align: center;
 }
 
 .title-enter {
-  margin-left: 5px;
   color: white;
 }
 
 .button-enter {
-  margin-left: 70px;
   text-decoration: none;
   color: white;
   background-color: black;
   padding-left: 5px;
   padding-right: 5px;
-  margin-left: 55px;
 }
